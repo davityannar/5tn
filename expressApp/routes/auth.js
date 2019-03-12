@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const express = require('express');
 const router = express.Router();
 
-const credential = require('../config/employees');
+const credential = require('../config5/employees');
 const users = credential.data.users;
 
 router.post('/', function (req, res) {

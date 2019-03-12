@@ -1,7 +1,8 @@
 const jwt = require('jsonwebtoken');
 
 const checkToken = (req, res, next) => {
-    let token = req.headers['x-access-token'];
+    console.log(11111,req)
+    let token = req.headers.authorization;
     console.log('token', token);
 
     if (token) {
@@ -11,7 +12,7 @@ const checkToken = (req, res, next) => {
             } else {
                 next();
             }
-        });
+        });     
     } else {
         res.status(403).send({ success: false, message: 'No token provided.' });
     }

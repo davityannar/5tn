@@ -2,7 +2,7 @@ const passport = require('passport');
 const FacebookStrategy = require('passport-facebook').Strategy;
 const { facebook } = require('./config');
 
-const credential = require('../config/employees');
+const credential = require('../config5/employees');
 
 function findUser(id) {
     for (let i = 0; i < credential.data.users.length; i++) {

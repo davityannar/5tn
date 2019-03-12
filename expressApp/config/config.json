@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": 54565488,
+    "database": "nodeHome",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": null,
+    "database": "nodeHome",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": null,
+    "database": "nodeHome",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

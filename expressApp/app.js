@@ -7,9 +7,9 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-require('./config/passport_google');
-require('./config/passport_local');
-require('./config/passport_facebook');
+require('./config5/passport_google');
+require('./config5/passport_local');
+require('./config5/passport_facebook');
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());

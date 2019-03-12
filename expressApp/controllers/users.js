@@ -1,7 +1,15 @@
-const { users } = require('../models/User.js');
+const { users } = require('../models5/User.js');
+const db = require('../models');
+
 
 const getUsers = (req, res) => {
-	res.send(users);
+	db.User.findAll()
+    .then((users) => {
+      res.json(users);
+    })
+    .catch((e) => {
+      res.json({ error: 'No users registered' });
+    });
 };
 
 module.exports = {

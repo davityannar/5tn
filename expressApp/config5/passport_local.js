@@ -1,7 +1,7 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
-const credential = require('../config/employees');
+const credential = require('../config5/employees');
 
 passport.serializeUser((credential, done) => {
 	console.log('Serialization: ' + JSON.stringify(credential));
