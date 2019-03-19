@@ -1,0 +1,23 @@
+[
+    {
+      "city": "Barcelona",
+      "country": "Spain",
+      "capital": false,
+      "lat": 52.097621,
+      "long": 23.734050
+    },
+    {
+      "city": "Manchester",
+      "country": "England",
+      "capital": false,
+      "lat": 55.049683,
+      "long": 19.744544
+    },
+    {
+      "city": "Paris",
+      "country": "France",
+      "capital": true,
+      "lat": 51.257049,
+      "long": 21.117532
+    }
+  ]
